@@ -291,4 +291,15 @@ footer p{
         height: 13rem;
         width: 74vw;
     }
+    #form-items{
+        width: 20rem;
+    }
+    #form input, textarea {
+        width: 20rem;
+        height: 2rem;
+    }
+    #form input, textarea {
+        width: 17rem;
+        height: 1.8rem;
+    }
 }
