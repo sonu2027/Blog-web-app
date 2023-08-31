@@ -16,8 +16,12 @@ nav{
     padding-top: 0.8rem;
     padding-bottom: 0.4rem;
 }
-#plus-icon{
+#plus-icon, #back-arrow{
     width: 2rem;
+    border-radius: 2rem;
+}
+#plus-icon, #back-arrow:hover{
+    cursor: pointer;
 }
 #plus-icon:hover, #cross-icon:hover{
     cursor: pointer;
@@ -93,6 +97,7 @@ input:focus, textarea:focus{
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid rgb(187, 182, 182);
+    overflow: hidden;
 }
 .blog-items h3{
     text-align: center;
@@ -118,6 +123,10 @@ input:focus, textarea:focus{
     height: 13rem;
     width: 16rem;
     border-radius: 10px;
+    transition: all ease 1s;
+}
+.blog-items img:hover{
+    scale: 1.13;
 }
 
 
@@ -127,20 +136,22 @@ input:focus, textarea:focus{
 .classOfH3P1andImg{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     background-color: rgb(72, 72, 198);
     padding: 0.6rem;
     column-gap: 5rem;
     border-radius: 10px;
     margin-bottom: 1.5rem;
+    overflow: hidden;
 }
 .h3p1andimgclassattr{
-    /* height: 20vw;
-    width: 30vw; */
     height: 12rem;
     width: 24rem;
     border-radius: 10px;
     border: 2px solid #fff;
+    transition: all ease 1s;
+}
+.h3p1andimgclassattr:hover{
+    scale: 1.1;
 }
 .classOfH3InIndividualBlogItems{
     color: #fff;
@@ -179,6 +190,9 @@ footer p{
     border-radius: 1rem;
     background-color: rgb(120, 4, 228);
     border: none;
+}
+#backgroundButton #dark:hover{
+    cursor: pointer;
 }
 #parent-button{
     padding-right: 1.6rem;
