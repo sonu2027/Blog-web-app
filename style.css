@@ -293,6 +293,7 @@ footer p{
     }
     #form-items{
         width: 20rem;
+        margin-top: 22rem;
     }
     #form input, textarea {
         width: 20rem;
@@ -301,5 +302,8 @@ footer p{
     #form input, textarea {
         width: 17rem;
         height: 1.8rem;
+    }
+    #cross-icon{
+        margin-right: 1rem;
     }
 }
